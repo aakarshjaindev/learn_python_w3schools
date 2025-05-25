@@ -11,3 +11,7 @@ so i have learned about
 * python lists 
 * python slicing 
 * python updation list 
+* python lambda
+* pytho lists, tuples , dictionaries, etc.
+* python function , classes, def 
+
