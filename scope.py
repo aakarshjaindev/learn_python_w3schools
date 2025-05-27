@@ -53,4 +53,5 @@ def shastra():
 	return name
 
 print(shastra())
-lklds
+
+
