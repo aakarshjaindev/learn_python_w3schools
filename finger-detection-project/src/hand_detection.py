@@ -1,6 +1,6 @@
+import cv2
 class HandDetector:
     def __init__(self, detection_confidence=0.5):
-        import cv2
         import mediapipe as mp
         
         self.mp_hands = mp.solutions.hands

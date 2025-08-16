@@ -9,7 +9,7 @@ print(x)
 # when we execute the code orm the ceexampel abovgte the results wil be : 
  
 
- import datetime
+import datetime
  x = datetime.datetime.now()
 
  print(x.year)

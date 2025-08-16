@@ -11,7 +11,7 @@
 # f-string ass lows to forrmat selected parts of a string 
 # to spectiy a sting as an ffs tin g, simpley ouput an df fin sfornt the string liternal like thats
 
-joseweden = f"and he definitely still lived with his mom"
+joseweden = "and he definitely still lived with his mom"
 
 print(joseweden)
 

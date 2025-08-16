@@ -12,14 +12,16 @@ def generate_code():
 		code.append(color)
 	return code 
 def guess_code():
-	guess = input('guess: ').upper().split(" ")
+	while True:
+		guess = input('guess: ').upper().split(" ")
 
-
-
-	if len(guess) != CODE_LENGTH: 
-		print(f'you must gues{ CODE_LENGTH} colors.')
-		continue 
-	for color in guess: 
-		if color not in COLORS: 
-			print(f' Invalid color : { color }. Try again ')
-			break im
+		if len(guess) != CODE_LENGTH:
+			print(f'you must guess {CODE_LENGTH} colors.')
+			continue
+		
+		for color in guess:
+			if color not in COLORS:
+				print(f'Invalid color: {color}. Try again.')
+				break
+		else: # This else block executes if the for loop completes without a break
+			return guess
